@@ -5,7 +5,7 @@ import { Source_Serif_4, Inter } from "next/font/google";
 export const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
   variable: "--font-source-serif",
-  weight: ["400", "700"], // Adjust based on what weights you need
+  weight: ["400", "500", "600", "700"], // Adjust based on what weights you need
 });
 
 export const inter = Inter({
